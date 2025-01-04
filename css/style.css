@@ -87,7 +87,7 @@ body{
 }
 
 .ph img{
-    width: 1440px;
+    width: 100%;
     height: 749px;
 }
 
@@ -101,6 +101,7 @@ body{
     background: #DFE9F4;  
     position: absolute;
     padding: 39px;
+    box-sizing: border-box;
 }
 
 .newarrival{
@@ -197,9 +198,73 @@ body{
     color: #333333;
 }
 
+.inscollect{
+    width: 100%;
+    height: 742px;
+    padding: 58px 0px;
+    box-sizing: border-box;
+}
 
+.words{
+    width: 100%;
+    height: 90px;
+    /* background-color: #276dc3; */
+    margin-bottom: 50px;
+}
 
+.word{
+    width: 100%;
+    height: 39px;
+    margin-bottom: 20px;
+    /* background-color: aqua; */
+}
 
+.word p{
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: center;
+    color: #333333;
+}
+
+.loremips{
+    width: 100%;
+    height: 30px;
+    /* background-color: brown; */
+}
+
+.loremips p{
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24.38px;
+    text-align: center;
+    color: #666666;
+}
+
+.photo_3{
+    width: 100%;
+    height: 472px;
+    padding: 0px 27px;
+    box-sizing: border-box;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.idk{
+    width: 355px;
+    height: 472px;
+    padding-top: 38px;
+    box-sizing: border-box;
+    /* background: #054C73; */
+}
+
+.images{
+    width: 355px;
+    height: 434px;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
